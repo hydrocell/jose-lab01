@@ -1,0 +1,36 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "nf-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/nf/NfWebPart.js",
+          "manifest": "./src/webparts/nf/NfWebPart.manifest.json"
+        }
+      ]
+    },
+    "rct-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/rct/RctWebPart.js",
+          "manifest": "./src/webparts/rct/RctWebPart.manifest.json"
+        }
+      ]
+    },
+    "ko-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ko/KoWebPart.js",
+          "manifest": "./src/webparts/ko/KoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NfWebPartStrings": "lib/webparts/nf/loc/{locale}.js",
+    "RctWebPartStrings": "lib/webparts/rct/loc/{locale}.js",
+    "KoWebPartStrings": "lib/webparts/ko/loc/{locale}.js"
+  }
+}
