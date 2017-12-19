@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "lab-3-react",
+    "libraryId": "af335414-e5d1-4819-85e9-e906d7d679f2",
+    "environment": "spo"
+  }
+}

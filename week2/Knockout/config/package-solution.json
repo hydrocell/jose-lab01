@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "knockoutlab-1-client-side-solution",
+    "id": "5ad79c6c-18f5-478b-b199-cc400df8aeb5",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/knockoutlab-1.sppkg"
+  }
+}

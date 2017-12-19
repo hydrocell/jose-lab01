@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "noframeworksln-client-side-solution",
+    "id": "825095cb-f804-415f-8620-6fda6f100de0",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/noframeworksln.sppkg"
+  }
+}

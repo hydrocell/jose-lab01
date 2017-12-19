@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "helloworldwebpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloworldwebpart/HelloworldwebpartWebPart.js",
+          "manifest": "./src/webparts/helloworldwebpart/HelloworldwebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloworldwebpartWebPartStrings": "lib/webparts/helloworldwebpart/loc/{locale}.js"
+  }
+}
